@@ -2,7 +2,8 @@ var search = $('#search'),
     create = $('#create'),
     fact = $('#fact'),
     facName = $('#facName'),
-    addUser = $('#addUser');
+    addUser = $('#addUser'),
+    results = $('#results');
 
 search.click(function() {
     var name = search.val();
@@ -12,6 +13,7 @@ search.click(function() {
             search.addClass('hidden');
         } else {
             console.log(data);
+            results.append(data);
         }
     });
 });
