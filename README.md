@@ -1,5 +1,7 @@
 # MongoDB
 
+[![Join the chat at https://gitter.im/Lukars/mongodbFAC](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Lukars/mongodbFAC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ##Why
 ###Why would you want to use MongoDB?
 noSQL database so prevents SQL injections
